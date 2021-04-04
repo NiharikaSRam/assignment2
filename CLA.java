@@ -17,8 +17,8 @@ public class CLA
 			result = Integer.parseInt(args[1])-Integer.parseInt(args[2]);
 			System.out.println(" The result of subtract is : " + result);
 			break;
-			case "*":
-			result = Integer.parseInt(args[1])*Integer.parseInt(args[2]);
+			case "x":
+			result = Integer.parseInt(args[1]) * Integer.parseInt(args[2]);
 			System.out.println(" The result of Multiplication is : " + result);
 			break;
 		}
